@@ -1,6 +1,6 @@
 # Focus On Today 🎯
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_NETLIFY_BADGE_ID/deploy-status)](https://goalsphere.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39088378-41f7-4f52-9e58-081c40b043e3/deploy-status)](https://app.netlify.com/sites/goalsphere/deploys)
 
 "Focus On Today" is a minimalistic and interactive goal-tracking web application designed to help you stay productive and organized by setting, tracking, and completing daily goals. ✨
 
@@ -38,5 +38,6 @@ Follow the instructions below to set up the project locally.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com//focus-on-today.git
+     git clone https://github.com/Sarthak2845/focus-on-today.git
+
 
