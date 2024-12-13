@@ -18,11 +18,11 @@ Check out the live demo: [GoalSphere](https://goalsphere.netlify.app/)
 ---
 
 ## Screenshots 📸
-### Desktop View
-![Desktop Screenshot](https://via.placeholder.com/800x450?text=Desktop+Screenshot)
+### Desktop View  
+![PC Screenshot](./assets/screenshots/pc-screenshot.png)  
 
-### Mobile View
-![Mobile Screenshot](https://via.placeholder.com/300x600?text=Mobile+Screenshot)
+### Mobile View  
+![Mobile Screenshot](./assets/screenshots/mobile-screenshot.png)
 
 ---
 
