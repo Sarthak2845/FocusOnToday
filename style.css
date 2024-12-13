@@ -1,0 +1,222 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   background:url('https://images.pexels.com/photos/7135037/pexels-photo-7135037.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat ;
+   background-color: hsl(304, 87%, 6%);
+   /*changed */
+   background-size: cover;
+   background-position: center;
+   font-family: "Sour Gummy", sans-serif;
+   margin: 0;
+ }
+
+ main {
+   padding: 0 16px 32px;
+
+ }
+
+ .title {
+   font-size: 64px;
+   color: #f1f2f0;
+   text-align: center;
+   margin: 18px;
+ }
+
+ .title span {
+   color: #ff0707;
+ }
+
+ .subtitle {
+   font-size: 40px;
+   margin: 10px;
+   color: #f1f2f0;
+ }
+
+ .app-container {
+   background: rgb(20, 20, 20);
+   max-width: 660px;
+   margin-inline: auto;
+   border-radius: 15px;
+   padding: 32px 48px;
+   /* box-shadow: 0px 0px 10px 5px hsl(299, 67%, 26%); */
+   /*changed */
+   /* border: 3px solid hsl(299, 67%, 26%); */
+   /*changed */
+   animation: glow 1s alternate infinite;
+
+ }
+
+
+ .sun-icon {
+   vertical-align: middle;
+   margin-left: 16px;
+   width: 50px;
+   height: 50px;
+   animation: rotate 5s linear infinite;
+   border-radius: 50%;
+   background-color: transparent;
+ }
+
+ @keyframes rotate {
+   from {
+     transform: rotate(0deg);
+   }
+
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+ .progress-label {
+   font-size: 14px;
+   color: slategray;
+   margin-bottom: 18px;
+ }
+
+ .progress-bar {
+   height: 20px;
+   background-color: hsl(304, 88%, 13%);
+   border-radius: 15px;
+   position: relative;
+   overflow: hidden;
+
+ }
+
+ .progress-value {
+   height: 20px;
+   width:0%;
+   background: #48A300;
+   border-radius: 15px;
+   font-size: 10px;
+   color: #EEFFE0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   transition: width 0.7s ease-in-out;
+ }
+.progress-value span{
+  width: max-content;
+}
+ .error-label {
+  font-size: 16px;
+  color: #f1f1f1;
+  margin-top: 10px;
+  text-align: center;
+  display: none;
+}
+
+
+
+
+ .goal-container {
+   border: 1px solid hsl(299, 67%, 26%);
+   border-radius: 17px;
+   height: 82px;
+   display: flex;
+   align-items: center;
+   padding: 1px 22px;
+   background-color: hsl(304, 87%, 6%);
+   margin-block: 25px;
+ }
+
+ .custom-checkbox {
+   width: 24px;
+   height: 24px;
+   border: 2px solid #48A300;
+   border-radius: 50%;
+   flex-shrink: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+ }
+
+ .goal-input {
+   height: 24px;
+   border: none;
+   outline: none;
+   margin-left: 22px;
+   font-family: inherit;
+   font-size: 20px;
+   background-color: transparent;
+   color: rgba(255, 255, 255, 0.763);
+   flex-grow: 1;
+   height: 100%;
+   cursor: pointer;
+   font-weight: 500;
+ }
+
+ input::placeholder {
+   color: rgba(255, 255, 255, 0.642);
+ }
+
+ .completed .custom-checkbox {
+   background-color: #48A300;
+   border-color: #48A300;
+ }
+
+ .check-icon {
+   display: none;
+ }
+
+ .completed .check-icon {
+   display: block;
+ }
+
+ .quote {
+   font-weight: 500;
+   text-align: center;
+   font-size: 20px;
+   color: #f1f2f0;
+ }
+
+ .footer {
+   text-align: center;
+   font-weight: 500;
+   margin-top: 64px;
+   font-size: 10px;
+   color: #8b8b8b;
+ }
+
+ .footer a {
+   color: #8b8b8b;
+   text-decoration: none;
+ }
+
+ .completed .goal-input {
+   color: #48A300;
+   text-decoration: line-through;
+   text-decoration-color: #A30048;
+ }
+
+ @media (max-width:768px) {
+   .title {
+     font-size: 32px;
+   }
+
+   .app-container {
+     padding: 16px 32px;
+   }
+
+   .goal-container {
+     height: 64px;
+     margin-bottom: 24px;
+     border-radius: 14px;
+   }
+
+   .custom-checkbox {
+     height: 20px;
+     width: 20px;
+   }
+
+   .footer {
+     margin-top: 32px;
+   }
+ }
