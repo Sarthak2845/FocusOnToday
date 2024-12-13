@@ -19,10 +19,10 @@ Check out the live demo: [GoalSphere](https://goalsphere.netlify.app/)
 
 ## Screenshots 📸
 ### Desktop View  
-![PC Screenshot](./assets/screenshots/pc-screenshot.png)  
+![PC Screenshot](screenshots/pc-screenshot.png)  
 
 ### Mobile View  
-![Mobile Screenshot](./assets/screenshots/mobile-screenshot.png)
+![Mobile Screenshot](screenshots/mobile-screenshot.jpg)
 
 ---
 
